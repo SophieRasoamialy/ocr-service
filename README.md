@@ -91,5 +91,6 @@ Tesseract.js for the OCR engine
 Next.js for the React framework
 Tailwind CSS for the styling
 
-![image](./itt.gif)
+![image](public/itt.gif)
+
 
