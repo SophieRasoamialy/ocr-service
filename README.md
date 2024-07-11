@@ -90,3 +90,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 Tesseract.js for the OCR engine
 Next.js for the React framework
 Tailwind CSS for the styling
+
+![image](./itt.gif)
+
