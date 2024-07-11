@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.yoursite.com/',
+    url: 'https://my-image-to-text.vercel.app/',
     siteName: 'Image to text',
     title: 'Image to text',
     description: 'Convert images to text using OCR',
     images: [
       {
-        url: 'https://www.yoursite.com/itt.gif',
+        url: 'https://my-image-to-text.vercel.app/itt.gif',
         width: 1200,
         height: 630,
         alt: 'Image to text',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     site: '@SophieHasindrae',  
     title: 'Image to text',
     description: 'Convert images to text using OCR',
-    images: 'https://www.yoursite.com/itt.gif',
+    images: 'https://my-image-to-text.vercel.app/itt.gif',
   },
 };
 

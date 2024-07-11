@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://my-image-to-text.vercel.app/sitemap.xml
