@@ -3,7 +3,6 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
-import {  Html, Head} from "next/document";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -44,8 +43,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <Html lang="en">
-      <Head>
+    <html lang="en">
+      <head>
         <meta name="description" content="Convert images to text using OCR" />
         <meta name="keywords" content="OCR, Image to Text, Online OCR" />
         <meta name="author" content="Sophie Hasindrae" />
@@ -59,13 +58,13 @@ export default function RootLayout({
         <meta name="twitter:description" content="Convert images to text using OCR" />
         <meta name="twitter:image" content="https://my-image-to-text.vercel.app/itt.gif" />
         <meta name="google-adsense-account" content="ca-pub-4219691541903798"/>
-      </Head>
+      </head>
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}>{children}
         <Toaster />
       </body>
-    </Html>
+    </html>
   );
 }
