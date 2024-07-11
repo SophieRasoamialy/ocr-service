@@ -66,7 +66,7 @@ export default function RootLayout({
         )}>{children}
         <Toaster />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4219691541903798"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
       </body>
     </>
   );
