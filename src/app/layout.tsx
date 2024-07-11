@@ -57,6 +57,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="Image to text" />
         <meta name="twitter:description" content="Convert images to text using OCR" />
         <meta name="twitter:image" content="https://www.yoursite.com/images/twitter-image.jpg" />
+        <meta name="google-adsense-account" content="ca-pub-4219691541903798">
       </head>
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
