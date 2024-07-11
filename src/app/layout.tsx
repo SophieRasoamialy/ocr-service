@@ -43,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <>
       <head>
         <meta name="description" content="Convert images to text using OCR" />
         <meta name="keywords" content="OCR, Image to Text, Online OCR" />
@@ -65,6 +65,6 @@ export default function RootLayout({
         )}>{children}
         <Toaster />
       </body>
-    </html>
+    </>
   );
 }
