@@ -47,17 +47,18 @@ export default function RootLayout({
       <head>
         <meta name="description" content="Convert images to text using OCR" />
         <meta name="keywords" content="OCR, Image to Text, Online OCR" />
-        <meta name="author" content="Your Name" />
+        <meta name="author" content="Sophie Hasindrae" />
         <meta property="og:title" content="Image to text" />
         <meta property="og:description" content="Convert images to text using OCR" />
-        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
-        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:image" content="https://my-image-to-text.vercel.app/itt.gif" />
+        <meta property="og:url" content="https://my-image-to-text.vercel.app" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@SophieHasindrae" />
         <meta name="twitter:title" content="Image to text" />
         <meta name="twitter:description" content="Convert images to text using OCR" />
-        <meta name="twitter:image" content="https://www.yoursite.com/images/twitter-image.jpg" />
+        <meta name="twitter:image" content="https://my-image-to-text.vercel.app/itt.gif" />
         <meta name="google-adsense-account" content="ca-pub-4219691541903798">
+          
       </head>
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
