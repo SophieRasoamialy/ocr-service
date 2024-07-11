@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OCR Service
+
+## Description
+
+OCR Service is a web application that allows users to upload images and convert them to text using the Tesseract OCR engine. The application supports multiple languages and provides an easy-to-use interface for text extraction.
+
+## Features
+
+- Upload images via file input or URL
+- Support for multiple languages
+- Real-time image preview
+- Extracted text display
+- Copy extracted text to clipboard
+- Toast notifications for user actions
+- Loading spinner during OCR processing
+
+## Tech Stack
+
+- Next.js
+- React
+- Tesseract.js
+- Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v14.x or higher)
+- npm (v6.x or higher)
+
+### Installation
+
+## Clone the repository:
 
 ```bash
+git clone https://github.com/SophieRasoamialy/ocr-service.git
+cd ocr-service
+```
+## Install the dependencies:
+```bash
+npm install
+```
+## Running the Application
+To start the development server, run:
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Open your browser and navigate to http://localhost:3000 to see the application in action.
+
+##Building for Production
+To create a production build, run:
+```bash
+npm run build
+```
+To start the production server, run:
+```bash
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
+You can deploy this application to any hosting service that supports Node.js. For example, you can deploy to Vercel by following their deployment guide.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
+Select an image file using the file input.
+Choose the language for OCR from the dropdown menu.
+Click the "Convert to Text" button to start the OCR process.
+The extracted text will be displayed below the button.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Supported Languages
+The application supports the following languages:
 
-## Learn More
+English
+French
+Spanish
+German
+Italian
+Portuguese
+Dutch
+Russian
+Chinese (Simplified)
+Chinese (Traditional)
+Japanese
+Korean
+Arabic
+And many more...
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgements
+Tesseract.js for the OCR engine
+Next.js for the React framework
+Tailwind CSS for the styling
