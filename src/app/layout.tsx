@@ -58,6 +58,7 @@ export default function RootLayout({
         <meta name="twitter:description" content="Convert images to text using OCR" />
         <meta name="twitter:image" content="https://my-image-to-text.vercel.app/itt.gif" />
         <meta name="google-adsense-account" content="ca-pub-4219691541903798"/>
+        <meta name="google-site-verification" content="uezdsqYI-Mnh9VWN84LeFZ3XT_MZ1AQ4F5EjYyAAi34" />
       </head>
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
