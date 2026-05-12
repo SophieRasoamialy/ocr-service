@@ -1,96 +1,118 @@
-# OCR Service
+# Service OCR
 
 ## Description
 
-OCR Service is a web application that allows users to upload images and convert them to text using the Tesseract OCR engine. The application supports multiple languages and provides an easy-to-use interface for text extraction.
+Service OCR est une application web qui permet d'importer des images et de les convertir en texte grâce au moteur OCR Tesseract. Elle prend en charge plusieurs langues et propose une interface simple pour extraire, prévisualiser et copier le texte reconnu.
 
-## Features
+## Fonctionnalités
 
-- Upload images via file input or URL
-- Support for multiple languages
-- Real-time image preview
-- Extracted text display
-- Copy extracted text to clipboard
-- Toast notifications for user actions
-- Loading spinner during OCR processing
+- Import d'images depuis un fichier local ou une URL
+- Prise en charge de plusieurs langues de reconnaissance OCR
+- Aperçu de l'image en temps réel
+- Affichage du texte extrait
+- Copie du texte extrait dans le presse-papiers
+- Notifications toast pour les actions utilisateur
+- Indicateur de chargement pendant le traitement OCR
 
-## Tech Stack
+## Stack technique
 
 - Next.js
 - React
 - Tesseract.js
 - Tailwind CSS
 
-## Getting Started
+## Prise en main
 
-### Prerequisites
+### Prérequis
 
-- Node.js (v14.x or higher)
-- npm (v6.x or higher)
+- Node.js 14.x ou version supérieure
+- npm 6.x ou version supérieure
 
 ### Installation
 
-## Clone the repository:
+Clonez le dépôt :
 
 ```bash
 git clone https://github.com/SophieRasoamialy/ocr-service.git
 cd ocr-service
 ```
-## Install the dependencies:
+
+Installez les dépendances :
+
 ```bash
 npm install
 ```
-## Running the Application
-To start the development server, run:
+
+### Lancer l'application en développement
+
+Démarrez le serveur de développement :
+
 ```bash
 npm run dev
 ```
-Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-##Building for Production
-To create a production build, run:
+Ouvrez ensuite votre navigateur à l'adresse [http://localhost:3000](http://localhost:3000).
+
+### Construire pour la production
+
+Créez une version de production :
+
 ```bash
 npm run build
 ```
-To start the production server, run:
+
+Lancez le serveur de production :
+
 ```bash
 npm start
 ```
 
-## Deployment
-You can deploy this application to any hosting service that supports Node.js. For example, you can deploy to Vercel by following their deployment guide.
+## Déploiement
 
-## Usage
-Select an image file using the file input.
-Choose the language for OCR from the dropdown menu.
-Click the "Convert to Text" button to start the OCR process.
-The extracted text will be displayed below the button.
+Vous pouvez déployer cette application sur tout service d'hébergement compatible avec Node.js. Par exemple, elle peut être déployée sur Vercel en suivant leur guide de déploiement.
 
-## Supported Languages
-The application supports the following languages:
+## Utilisation
 
-English
-French
-Spanish
-German
-Italian
-Portuguese
-Dutch
-Russian
-Chinese (Simplified)
-Chinese (Traditional)
-Japanese
-Korean
-Arabic
-And many more...
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+1. Sélectionnez une image à l'aide du champ d'import de fichier ou indiquez une URL d'image.
+2. Choisissez la langue à utiliser pour la reconnaissance OCR dans le menu déroulant.
+3. Cliquez sur le bouton **Convert to Text** pour lancer l'extraction.
+4. Consultez le texte extrait affiché sous le bouton.
+5. Copiez le résultat dans le presse-papiers si nécessaire.
 
-## Acknowledgements
-Tesseract.js for the OCR engine
-Next.js for the React framework
-Tailwind CSS for the styling
+## Langues prises en charge
 
-![image](public/itt.gif)
+L'application prend notamment en charge les langues suivantes :
 
+- Anglais
+- Français
+- Espagnol
+- Allemand
+- Italien
+- Portugais
+- Néerlandais
+- Russe
+- Chinois simplifié
+- Chinois traditionnel
+- Japonais
+- Coréen
+- Arabe
+- Et bien d'autres langues prises en charge par Tesseract.js
 
+## Conseils pour de meilleurs résultats OCR
+
+- Utilisez des images nettes, bien éclairées et avec un bon contraste.
+- Évitez les photos inclinées, floues ou contenant trop de bruit visuel.
+- Sélectionnez la langue correspondant au texte présent dans l'image.
+- Recadrez l'image autour du texte lorsque c'est possible.
+
+## Contribution
+
+Les contributions sont les bienvenues ! Vous pouvez ouvrir une issue ou soumettre une pull request pour proposer des améliorations, corriger des bugs ou enrichir la documentation.
+
+## Remerciements
+
+- [Tesseract.js](https://tesseract.projectnaptha.com/) pour le moteur OCR
+- [Next.js](https://nextjs.org/) pour le framework React
+- [Tailwind CSS](https://tailwindcss.com/) pour le style
+
+![Aperçu de l'application](public/itt.gif)
